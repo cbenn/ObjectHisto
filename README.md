@@ -3,7 +3,7 @@ ObjectHisto
 
 3D object histograms
 
-
+%%%Make sure the AC4_matrices.mat is in your path%%%%%
 
 I am not sure if you have looked through Roger’s code he made of a GUI, but I have been working off of that. (The code to run is in tests called histoGUI).  
 

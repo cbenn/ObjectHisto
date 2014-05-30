@@ -8,7 +8,7 @@ field=getfield(load('AC4_matrices.mat'),'imageAC4');
 grayI=mat2gray(field);
 %%%%%Select area of Image to analyze, in the last entry,%%%%%%
 %%%%%choose which image to display with it's histogram%%%%%%%%%%%
-aI=20 %%%%Slide number%%
+aI=20; %%%%Slide number%%
 I= double(grayI(:, :, aI));
 figure, imshow(I); 
 %%%%Select an area in the image you would like to work in*****
